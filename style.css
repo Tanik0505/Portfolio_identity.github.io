@@ -37,7 +37,9 @@ html::-webkit-scrollbar-thumb{
 }
 
 body{
-    background:#111;
+    height:100%;
+	width:100%;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(gif.gif);
     overflow-x: hidden;
     padding-left: 35rem;
 }
@@ -367,7 +369,7 @@ header .navbar ul li a:hover{
 .contact .row form .box{
     padding:1.5rem;
     margin:1rem 0;
-    background:#3333;
+    background:rgba(248, 242, 242, 0.2);
     color:#fff;
     text-transform: none;
     font-size: 1.7rem;
@@ -422,7 +424,14 @@ header .navbar ul li a:hover{
     display: block;
     font-size: 25px;
 }
-
+#footer{
+    text-align: center;
+    background: #f2b423;
+    padding: 30px 50px;
+    color: #07080B;
+    font-weight: 700;
+    font-size: 15px;
+}
 
 
 
