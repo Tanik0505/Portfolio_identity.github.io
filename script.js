@@ -21,7 +21,7 @@ $(document).ready(function(){
   // smooth scrolling 
 
   // Select all navigation links
-const links = document.querySelectorAll('header');
+const links = document.querySelectorAll('nav a');
 
 // Iterate through each link
 for (const link of links) {
@@ -31,7 +31,7 @@ for (const link of links) {
     const targetPosition = document.querySelector(targetId).offsetTop;
     const startPosition = window.pageYOffset;
     const distance = targetPosition - startPosition;
-    const duration = 5000;
+    const duration = 500;
     let start = null;
     
     // Animate the scrolling
