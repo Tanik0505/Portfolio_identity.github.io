@@ -445,7 +445,7 @@ header .navbar ul li a:hover{
   }
   
   .gallery-item {
-    width: 33.33%;
+    width: 60%;
     padding: 10px;
     box-sizing: border-box;
   }
