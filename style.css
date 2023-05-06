@@ -491,7 +491,28 @@ header .navbar ul li a:hover{
         font-weight: 350;
         text-align: justify;
     }
-
+    .social-links{
+        list-style-type: none;
+    }
+    .social-links li{
+        display: inline-block;
+    }
+    .social-links li a{
+        background-color: var(--primary-color);
+        color: #0f0f0f;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
+        margin-right: 13px;
+        transition: background-color 0.3s ease-in-out;
+    }
+    .social-links li a:hover{
+        background-color: var(--secondary-color);
+    }
+    
 
 
 
